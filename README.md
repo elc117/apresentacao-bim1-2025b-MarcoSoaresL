@@ -89,3 +89,20 @@ meuprimeiroprograma.class
 Esse arquivo será executado pela JVM. 
 
 Observação: Uma série de processos mais específicos são feitos até a execução, como a criação de objetos e verificação de métodos e classes.
+
+## Referências
+https://www.geeksforgeeks.org/java/how-jvm-works-jvm-architecture/
+https://www.reddit.com/r/computerscience/comments/x4xxcj/why_java_has_a_jvm/
+https://medium.com/@ahmetbeskazalioglu/compiled-and-interpreted-programming-languages-advantages-disadvantages-and-language-selection-b260ff8d2a50
+https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-compiled-versus-interpreted-languages
+https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/
+https://www.geeksforgeeks.org/compiler-design/advantages-and-disadvantages-of-compiler/
+https://www.dio.me/articles/linguagens-de-baixo-e-alto-nivel-o-que-sao-e-qual-a-diferenca
+https://www.freecodecamp.org/portuguese/news/compilacao-just-in-time-explicada/
+https://www.youtube.com/watch?v=1rd9TP692AM
+https://www.youtube.com/watch?v=mQ-vQ2BlKrw
+https://www.reddit.com/r/learnprogramming/comments/fada5a/what_is_the_difference_between_compiling_and/
+https://www.geeksforgeeks.org/compiler-design/difference-between-compiler-and-interpreter/
+Livro: Head First Java 3ed. Sierra; Bates e Gee, 2022.
+https://hackr.io/blog/python-interpreters
+https://terminalroot.com/list-of-top-10-c-cpp-compilers/
