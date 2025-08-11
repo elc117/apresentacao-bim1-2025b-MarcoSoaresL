@@ -1,27 +1,27 @@
 # Linguagens Interpretadas VS Linguagens Compiladas
 
-A primeira tarefa para compreender as diferenças entre as linguagens que precisam de um compilador, linguagens que precisam de um interpretador e linguagens que precisam/podem utilizar de ambos, é saber que a máquina 
+A primeira tarefa para compreender as diferenças entre as linguagens que precisam de um compilador, as que precisam de um interpretador e as que precisam/podem utilizar de ambos é saber que a máquina 
 entende apenas linguagem de máquina, as famosas sequências binárias que nos atormentaram no semestre passado em Organização. Entretanto, quando escrevemos códigos, fazemos isso utilizando linguagens de alto nível, que não são
-entendidas pelo computador, sendo necessário uma tradução. 
+entendidas pelo computador, sendo necessária uma tradução. 
 
 <br><img width="1862" height="1047" alt="1" src="https://github.com/user-attachments/assets/9ba5e22b-539a-4d33-9c27-32ce540e6e75" /><br>
 
 
-Pronto, agora temos a base de tudo o que será discutido nessa apresentação, de maneira geral, tanto compiladores quando interpretadores buscam realizar a mesma tarefa, fazer essa conversão do código escrito em linguagens de
+Pronto, agora temos a base de tudo o que será discutido nesta apresentação, de maneira geral, tanto compiladores quanto interpretadores buscam realizar a mesma tarefa, fazer essa conversão do código escrito em linguagens de
 alto nível para a linguagem de máquina. A diferença entre um e outro, falaremos sobre as variações posteriormente, é justamente quando essa tradução ocorre e como ela é feita.
 
-Para facilitar, vamos pensar em uma analogia: imagine que temos um novo colega que entende apenas a lingua alemã. A professora Andrea passa uma tarefa e você fica responsável de realizar a tradução do português para o alemâo
+Para facilitar, vamos pensar em uma analogia: imagine que temos um novo colega que entende apenas a língua alemã. A professora Andrea passa uma tarefa e você fica responsável de realizar a tradução do português para o alemão
 . Para isso, algumas abordagens são possíveis. 
 
 ## Linguagens compiladas
-- Você recebe o trabalho em português, realiza a tradução de todo o trabalho para o alemão e posteriormente você passa para o seu novo colega que executa o trabalho. A imagem exemplifica o funcionamento das linguagens compiladas utilizando a analogia prévia, nesse sentido.
+- Você recebe o trabalho em português, realiza a tradução de todo o conteúdo para o alemão e, posteriormente, o entrega para o seu novo colega, que executa o trabalho. A imagem exemplifica o funcionamento das linguagens compiladas utilizando a analogia apresentada anteriormente.
 <img width="927" height="416" alt="compiladas" src="https://github.com/user-attachments/assets/368369d0-9727-48e3-8bb7-b91220ba692c" />
 
 ### Pontos Positivos:
 
 1) Velocidade de execução (performance): O código já está totalmente traduzido para uma linguagem que a máquina entende, assim, não é necessário esperar uma tradução e apenas posteriormente fazer a execução.
 2) Portabilidade: O código pode ser compilado para vários sistemas operacionais.
-3) Privacidade: Não há necessidade de divulgar o código.
+3) Privacidade: Não há necessidade de divulgar o código fonte.
 4) Erros de compilação: O compilador já checa e avisa alguns erros.
 
 ### Pontos Negativos:
@@ -105,4 +105,11 @@ https://www.reddit.com/r/learnprogramming/comments/fada5a/what_is_the_difference
 https://www.geeksforgeeks.org/compiler-design/difference-between-compiler-and-interpreter/
 Livro: Head First Java 3ed. Sierra; Bates e Gee, 2022.
 https://hackr.io/blog/python-interpreters
+
+# Parte Prática:
+
 https://terminalroot.com/list-of-top-10-c-cpp-compilers/
+
+
+https://github.com/user-attachments/assets/f0209182-d12e-4148-ac45-1df3e114513f
+
