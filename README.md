@@ -105,11 +105,20 @@ https://www.reddit.com/r/learnprogramming/comments/fada5a/what_is_the_difference
 https://www.geeksforgeeks.org/compiler-design/difference-between-compiler-and-interpreter/
 Livro: Head First Java 3ed. Sierra; Bates e Gee, 2022.
 https://hackr.io/blog/python-interpreters
+https://terminalroot.com/list-of-top-10-c-cpp-compilers/
 
 # Parte Prática:
 
-https://terminalroot.com/list-of-top-10-c-cpp-compilers/
+O Haskell pode ser tanto compilado quanto interpretado. Aqui utilizamos o Stack, um gerenciador de projetos e dependências para Haskell (https://docs.haskellstack.org/en/stable/). Ele permite tanto 
+a execução compilada quanto a interpretada. No vídeo, utilizamos o comando do Stack
 
+```
+stack runghc src/nomedoarquivo.hs
+```
+Que utiliza o ghc para compilar o código em linguagem intermediária na memória, não salvando um arquivo binário. Essa maneira é bastante interessante para testes rápidos no código.
 
 https://github.com/user-attachments/assets/f0209182-d12e-4148-ac45-1df3e114513f
 
+Referências:
+https://www.arquivodecodigos.com.br/dicas/4825--haskell-para-iniciantes-como-ler-a-entrada-do-usuario-em-haskell-ler-o-nome-da-pessoa-e-exibir-uma-mensagem-de-boas-vindas.html
+https://www.facom.ufu.br/~madriana/PF/IOHaskell.pdf
